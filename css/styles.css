@@ -12,7 +12,27 @@
   --footer-mail-color: #ffffff99;
   --main-btn-color: #fff;
 }
-/*-------------------------------FOOTER походу теги не могу найти если писать его ниже .боди------------------*/
+/*-------------------------------тут начало-----------------*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
 
 .body {
   font-family: "Roboto", sans-serif;
@@ -25,6 +45,33 @@
   text-decoration: none;
 }
 /*-------------------------------HEADER---------------------------------*/
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-item:not(last-child) {
+  margin-right: 30px;
+}
+.header-logo {
+  margin-right: 90px;
+}
+.header-list {
+  display: flex;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-connect {
+  margin-left: auto;
+}
+
 .header {
   background-color: #ffffff;
 }
@@ -66,6 +113,7 @@
   color: var(--third-title-color);
 }
 .header-web {
+  margin-right: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -102,11 +150,21 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  min-width: 160px;
+  min-height: 40px;
+  margin-top: 30px;
+  margin-left: 545px;
   color: var(--main-btn-color);
   background-color: var(--btn-background-color);
 }
 
 /*-------------------------------main---------------------------------*/
+.main-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -114,6 +172,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 165px;
+  padding-right: auto;
   color: var(--main-title-color);
 }
 .main-div {
@@ -153,6 +213,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+}
+.description-prons {
+  padding-top: 60px;
+  padding-bottom: 95px;
+}
+.box-description {
+  width: 270px;
+  height: 100px;
 }
 /*-------------------------------Footer---------------------------------*/
 .footer-logo {
@@ -208,6 +276,8 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  min-width: 160px;
+  min-height: 40px;
   color: var(--main-title-color);
   background-color: var(--btn-background-color);
 }
@@ -225,6 +295,8 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  min-width: 160px;
+  min-height: 40px;
   color: var(--footer-nolight-color);
 }
 .portfolio-btn:active {
