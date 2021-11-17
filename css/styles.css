@@ -353,7 +353,8 @@ body {
 .portfolio-pad {
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px black;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .portfolio-btn-box:not(:last-child) {
   margin-right: 10px;
