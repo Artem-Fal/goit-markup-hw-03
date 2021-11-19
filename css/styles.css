@@ -163,10 +163,8 @@ body {
   border-radius: 4px;
   color: var(--main-btn-color);
   background-color: var(--btn-background-color);
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
+  margin: 0 auto;
+  display: block;
   margin-top: 50px;
 }
 
@@ -229,6 +227,7 @@ body {
 .section-team {
   background-color: #f5f4fa;
   height: 650px;
+  padding-bottom: 90px;
 }
 .team-pad {
   padding-top: 30px;
@@ -241,7 +240,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.section-doing {
+  padding-bottom: 95px;
 }
 .description-prons {
   padding-top: 95px;
@@ -351,10 +353,9 @@ body {
   padding-bottom: 95px;
 }
 .portfolio-pad {
-  padding-top: 20px;
-  padding-bottom: 20px;
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 24px;
 }
 .portfolio-btn-box:not(:last-child) {
   margin-right: 10px;
@@ -364,7 +365,6 @@ body {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  margin-bottom: 90px;
 }
 .card-set > .portfolio-card {
   flex-basis: calc(100% / 3 - 30px);
