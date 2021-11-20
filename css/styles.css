@@ -52,7 +52,7 @@ body {
   margin: 0 auto;
 }
 .header-item:not(last-child) {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .header-logo {
   margin-right: 90px;
@@ -243,6 +243,7 @@ body {
   margin-bottom: 50px;
 }
 .section-doing {
+  padding-top: 95px;
   padding-bottom: 95px;
 }
 .description-prons {
@@ -276,7 +277,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   padding-top: 95px;
 }
 
@@ -381,6 +382,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--footer-nolight-color);
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 .portfolio-btn:active {
   color: var(--accent-color);
