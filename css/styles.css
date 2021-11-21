@@ -248,7 +248,6 @@ body {
 }
 .description-prons {
   padding-top: 95px;
-  padding-bottom: 95px;
 }
 .box-description {
   width: 270px;
@@ -343,6 +342,14 @@ body {
 /*-------------------------------ПОРТФОЛИО мейн---------------------------------*/
 .visually-hidden {
   visibility: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .hero-portfolio-btn {
   display: flex;
